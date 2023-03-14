@@ -1,0 +1,24 @@
+<!doctype html>
+<html>
+   <body>
+      result : {{ msg }}
+
+    <table border = 1>
+        <thead>
+           <td>Name</td>
+           <td>id</td>
+           <td>point</td>
+        </thead>
+        
+        {% for row in rows %}
+           <tr>
+              <td>{{row["name"]}}</td>
+              <td>{{row["id"]}}</td>
+              <td> {{ row["point"]}}</td>
+           </tr>
+        {% endfor %}
+    </table>
+
+      <h2><a href = "\">go back to home page</a></h2>
+   </body>
+</html>
