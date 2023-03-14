@@ -12,7 +12,7 @@ Run the file sever.py
 
 Go to the website created. It should be http://127.0.0.1:5000/
 
-Options - Click the options at the top of the screen to navigate
+## Click the options at the top of the screen to navigate
 
 Add User - Add users by Name, ID, and Points
 
